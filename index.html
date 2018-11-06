@@ -6,17 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="static/css/index.css" >
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <title>Manideep</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+  
+      <div class="row">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/static/js/jquery-3.3.1.slim.min.js" ></script>
-    <script src="/static/js/popper.min.js" ></script>
-    <script src="/static/js/bootstrap.min.js" ></script>
+        <!-- -----------------Left Panel--------------- -->
+        <div class="col-3 left-panel-main">
+          
+          <div class="row">
+              <div class="col-10 offset-1 mt-5">
+                <img class="shadow-lg border main-thumbnail m-2" src="static/images/mani-git.jpeg">
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col-10 offset-1 full-name-div pt-4">
+              <span class="full-name"><b>MANIDEEP MADABHUSHANI</b></span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                  <a class="col-4 d-flex justify-content-around" href="https://github.com/mmanideep">
+                    <img src="static/images/github-alt-brands.svg" class="connect-icon"/>
+                  </a>
+                  <a class="col-4 d-flex justify-content-around" href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/">
+                    <img src="static/images/linkedin-brands.svg" class="connect-icon"/>
+                  </a>
+                  <a class="col-4 d-flex justify-content-around" href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/">
+                    <img src="static/images/hackerrank-brands.svg" class="connect-icon"/>
+                  </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- End of Left Panel -->
+
+        <div class="main-body col-9">
+          <div class="row">
+
+            <div class="col-12">
+          
+              <nav>
+                <div class="nav justify-content-end" id="nav-tab" role="tablist">
+                  <a 
+                    class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" 
+                    href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true"
+                    >
+                    About
+                  </a>
+                  <a 
+                    class="nav-item nav-link" id="nav-exp-tab" data-toggle="tab" href="#nav-exp" 
+                    role="tab" aria-controls="nav-exp" aria-selected="false"
+                    >
+                    Experiences
+                  </a>
+                  <a 
+                    class="nav-item nav-link" id="nav-interests-tab" data-toggle="tab" 
+                    href="#nav-interests" role="tab" aria-controls="nav-interests" 
+                    aria-selected="false"
+                    >
+                    Interests
+                  </a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">ABOUT</div>
+                <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">Experiences</div>
+                <div class="tab-pane fade" id="nav-interests" role="tabpanel" aria-labelledby="nav-interests-tab">Interests</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+    <script src="static/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="static/js/popper.min.js" ></script>
+    <script src="static/js/bootstrap.min.js" ></script>
+  
   </body>
 </html>

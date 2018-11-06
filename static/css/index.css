@@ -1,0 +1,39 @@
+:root {
+    --primary-grey: #BABCBE;
+    --primary-dark-blue: #003468;
+    --primary-blue: #005BA8;
+    --primary-yellow: #FFC20E;
+    --primary-white: #FFFFFF;
+  }  
+
+.left-panel-main {
+    background-color: var(--primary-grey);
+    height: 100vh;
+}
+
+.main-thumbnail {
+    height: 250px;
+}
+
+.full-name {
+    color: var(--primary-dark-blue);
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.connect-icon {
+    width: 40px;
+}
+
+.full-name-div {
+    text-align: center;
+}
+
+.main-body {
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/long_background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 75%;
+    content: "";
+}
