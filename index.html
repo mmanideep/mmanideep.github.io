@@ -11,83 +11,77 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <title>Manideep</title>
   </head>
-  <body>
-    <div class="container-fluid">
-  
-      <div class="row">
-
+  <body class="container-fluid">
+    <div class="row flex-wrap d-flex justify-content-start pl-0 pr-0">
+      
         <!-- -----------------Left Panel--------------- -->
-        <div class="col-3 left-panel-main">
+        <div class="col-sm-3 left-panel-main pt-5">
           
-          <div class="row">
-              <div class="col-10 offset-1 mt-5">
-                <img class="shadow-lg border main-thumbnail m-2" src="static/images/mani-git.jpeg">
-              </div>
+          <div class="row d-flex justify-content-around"> 
+            <img class="shadow-lg w-75 h-75" src="static/images/mani-git.jpeg"> 
           </div>
 
-          <div class="row">
-            <div class="col-10 offset-1 full-name-div pt-4">
-              <span class="full-name"><b>MANIDEEP MADABHUSHANI</b></span>
+          <div class="row d-flex justify-content-around">
+            <div class="full-name-div pt-3 text-center pb-3">
+              <span class="full-name"><h2>MANIDEEP<br/>MADABHUSHANI</h2></span>
             </div>
+            <p>manideep.m@yahoo.com</p>
           </div>
-
-          <div class="row">
-            <div class="col-12">
-              <div class="row">
-                  <a class="col-4 d-flex justify-content-around" href="https://github.com/mmanideep">
-                    <img src="static/images/github-alt-brands.svg" class="connect-icon"/>
-                  </a>
-                  <a class="col-4 d-flex justify-content-around" href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/">
-                    <img src="static/images/linkedin-brands.svg" class="connect-icon"/>
-                  </a>
-                  <a class="col-4 d-flex justify-content-around" href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/">
-                    <img src="static/images/hackerrank-brands.svg" class="connect-icon"/>
-                  </a>
-              </div>
-            </div>
+          <div class="row d-flex justify-content-around">
+            <a href="https://github.com/mmanideep" class="connect-icon" >
+              <img src="static/images/github-alt-brands.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/" class="connect-icon">
+              <img src="static/images/linkedin-brands.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/manideep-madabhushani-433a0aa4/" class="connect-icon">
+              <img src="static/images/hackerrank-brands.svg" />
+            </a>
           </div>
-
         </div>
         <!-- End of Left Panel -->
 
-        <div class="main-body col-9">
-          <div class="row">
-
-            <div class="col-12">
-          
-              <nav>
-                <div class="nav justify-content-end" id="nav-tab" role="tablist">
-                  <a 
-                    class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" 
-                    href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true"
-                    >
-                    About
-                  </a>
-                  <a 
-                    class="nav-item nav-link" id="nav-exp-tab" data-toggle="tab" href="#nav-exp" 
-                    role="tab" aria-controls="nav-exp" aria-selected="false"
-                    >
-                    Experiences
-                  </a>
-                  <a 
-                    class="nav-item nav-link" id="nav-interests-tab" data-toggle="tab" 
-                    href="#nav-interests" role="tab" aria-controls="nav-interests" 
-                    aria-selected="false"
-                    >
-                    Interests
-                  </a>
-                </div>
-              </nav>
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">ABOUT</div>
-                <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">Experiences</div>
-                <div class="tab-pane fade" id="nav-interests" role="tabpanel" aria-labelledby="nav-interests-tab">Interests</div>
+        <div class="col-sm-9 main-body">
+          <div class="row justify-content-end">
+            <nav>
+              <div class="nav" id="nav-tab" role="tablist">
+                <a 
+                  class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" 
+                  href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true"
+                  >
+                  <span class="tab-title">About</span>
+                </a>
+                <a 
+                  class="nav-item nav-link" id="nav-exp-tab" data-toggle="tab" href="#nav-exp" 
+                  role="tab" aria-controls="nav-exp" aria-selected="false"
+                  >
+                  <span class="tab-title">Experiences</span>
+                </a>
+                <a 
+                  class="nav-item nav-link" id="nav-interests-tab" data-toggle="tab" 
+                  href="#nav-interests" role="tab" aria-controls="nav-interests" 
+                  aria-selected="false" target="_blank"
+                  >
+                  <span class="tab-title">Interests</span>
+                </a>
+              </div>
+            </nav>
+          </div>
+          <div class="row p-2">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                ABOUT
+              </div>
+              <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">
+                Experiences
+              </div>
+              <div class="tab-pane fade" id="nav-interests" role="tabpanel" aria-labelledby="nav-interests-tab">
+                Interests
               </div>
             </div>
           </div>
         </div>
-
-      </div>
+      
 
     </div>
     

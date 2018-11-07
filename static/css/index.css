@@ -7,22 +7,18 @@
   }  
 
 .left-panel-main {
-    background-color: var(--primary-grey);
+    background-color: var(--primary-yellow);
     height: 100vh;
-}
-
-.main-thumbnail {
-    height: 250px;
+    width: 25vw;
 }
 
 .full-name {
-    color: var(--primary-dark-blue);
-    font-size: 23px;
+    color: var(--primary-blue);
     font-family: 'Ubuntu', sans-serif;
 }
 
 .connect-icon {
-    width: 40px;
+    width: 15%;
 }
 
 .full-name-div {
@@ -30,10 +26,30 @@
 }
 
 .main-body {
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/long_background.jpg");
+    /* background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/long_background.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     background-size: 75%;
-    content: "";
+    content: ""; */
+    background-color: var(--primary-grey);
+    color: var(--primary-white);
+    height: 100vh;
+    width: 75vw;
 }
+
+.tab-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: var(--primary-blue);
+}
+
+a[aria-selected=true] {
+    border-bottom: 3px solid var(--primary-yellow);
+}
+
+@media screen and (max-width: 800px) {
+    .left-panel-main, .main-body {
+      width: 100vw; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
