@@ -13,14 +13,14 @@
 }
 
 .full-name {
-    color: var(--primary-white);
+    color: var(--primary-dark-blue);
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
 }
 
 .connect-icon {
     width: 40px;
-    padding-top: 20%;
+    padding-top: 50px;
 }
 
 
@@ -39,8 +39,8 @@
     background-attachment: fixed;
     background-size: 75%;
     content: ""; */
-    background-color: var(--primary-dark-blue);
-    color: var(--primary-grey);
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
     height: 100vh;
     width: 75vw;
 }
@@ -52,8 +52,12 @@
 
 a[aria-selected=true] {
     border-bottom: 3px solid var(--primary-yellow);
-    color: var(--primary-white) !important;
+    color: var(--primary-blue) !important;
     font-weight: 700;
+}
+
+a[aria-selected=false] {   
+    color: var(--primary-grey);
 }
 
 .main-body-content{
@@ -69,7 +73,7 @@ a[aria-selected=true] {
 }
 
 .email-text{
-    color: var(--primary-yellow);
+    color: black;
 }
 
 @media screen and (max-width: 800px) {
