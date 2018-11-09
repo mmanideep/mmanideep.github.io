@@ -51,59 +51,38 @@
 
         <div class="col-sm-9 main-body">
           <div class="row justify-content-end">
-            <nav>
-              <div class="nav pt-3" id="nav-tab" role="tablist">
-                <a 
-                  class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" 
-                  href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="true"
-                  >
-                  <span class="tab-title">About</span>
-                </a>
-                <a 
-                  class="nav-item nav-link" id="nav-exp-tab" data-toggle="tab" href="#nav-exp" 
-                  role="tab" aria-controls="nav-exp" aria-selected="false"
-                  >
-                  <span class="tab-title">Work Experience</span>
-                </a>
-                <a 
-                  class="nav-item nav-link" id="nav-interests-tab" data-toggle="tab" 
-                  href="#nav-interests" role="tab" aria-controls="nav-interests" 
-                  aria-selected="false" target="_blank"
-                  >
-                  <span class="tab-title">Interests</span>
-                </a>
-              </div>
-            </nav>
+            
+              <nav class="navbar d-flex justify-content-end navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#about" onclick="loadAbout();">
+                        <span class="tab-title pl-2 pb-2 pr-2" id="about-tab">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#work-exp" onclick="loadWorkExp();">
+                          <span class="tab-title pl-2 pb-2 pr-2" id="work-exp">Work Experience</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#interests" onclick="loadInterests();">
+                          <span class="tab-title pl-2 pb-2 pr-2" id="interests">Interests</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
           </div>
           <div class="row p-2">
-            <div class="col tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active pt-5" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-
-                  <div class="row">
-                    <div class="col pt-5 pb-3">
-                      <span class="full-name"><b>MANIDEEP MADABHUSHANI</b></span>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col email-text">
-                        <p>manideep.m@yahoo.com</p>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <span class="col main-body-content">
-                      Software craftsman and Block Chain Enthusiast with experience in Full Stack Developement.
-                    </span>
-                  </div>
-              </div>
-              <div class="tab-pane fade" id="nav-exp" role="tabpanel" aria-labelledby="nav-exp-tab">
-                Experiences
-              </div>
-              <div class="tab-pane fade" id="nav-interests" role="tabpanel" aria-labelledby="nav-interests-tab">
-                Interests
-              </div>
+            <div class="col d-flex justify-content-around">
+                <section class="tab-content" id="nav-tabContent">
+                  <!-- Tab Content goes here-->
+                </section>
             </div>
+            
           </div>
 
           <div class="fixed-bottom">
@@ -123,9 +102,10 @@
 
     </div>
     
-    <script src="static/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="static/js/jquery.min.js" ></script>
     <script src="static/js/popper.min.js" ></script>
     <script src="static/js/bootstrap.min.js" ></script>
+    <script src="static/js/index.js" ></script>
   
   </body>
 </html>
