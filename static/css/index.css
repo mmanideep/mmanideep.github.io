@@ -16,8 +16,8 @@ body {
     width: 25vw;
 }
 
-.full-name {
-    color: var(--primary-dark-blue);
+.about-tab-full-name {
+    color: var(--primary-white);
     font-size: 30px;
 }
 
@@ -36,16 +36,10 @@ body {
 }
 
 .main-body {
-    /* background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../images/long_background.jpg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    background-size: 75%;
-    content: ""; */
-    background-color: var(--primary-white);
-    color: var(--primary-blue);
+    background-color: var(--primary-dark-blue);
     height: 100vh;
     width: 75vw;
+    color: var(--primary-white);
 }
 
 .tab-title {
@@ -57,7 +51,7 @@ body {
 
 .highlight-tab-title {
     border-bottom: 3px solid var(--primary-yellow);
-    color: var(--primary-blue) !important;
+    color: var(--primary-white) !important;
     font-weight: 700;
 }
 
@@ -74,12 +68,61 @@ body {
 }
 
 .email-text{
-    color: black;
+    color: var(--primary-yellow);
 }
 
+.tab-content{
+    overflow-y: scroll !important;
+    height: 80vh;
+    padding-right: 17px;
+}
+
+.job-desc {
+    font-size: 15px;
+}
+
+.job-title {
+    color: var(--primary-blue);
+}
+
+.job-date {
+    font-size: 13px;
+}
+
+.job-org {
+    color: var(--primary-dark-blue);
+}
+
+.job-card {
+    background-color: var(--primary-grey);
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.education-head {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--primary-grey);
+}
+
+
+.navbar-toggler {
+    background-color: var(--primary-blue);
+}
+
+.interests-body {
+    font-size: 18px;
+}
+
+
 @media screen and (max-width: 800px) {
-    .left-panel-main, .main-body {
+    .main-body {
         width: 100vw; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+
+    .left-panel-main {
+        width: 100vw;
+        background-color: var(--primary-grey);
     }
 
     .tech-icon{
@@ -88,7 +131,7 @@ body {
     }
 
     .left-panel-name {
-        color: var(--primary-blue);
+        color: var(--primary-dark-blue);
         font-family: 'Ubuntu', sans-serif;
         font-size: 30px;
         font-weight: 900;
@@ -108,4 +151,9 @@ body {
         width: 100%;
     }
 
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 }
