@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5391ec2ad7943cb6f69e4d908766b89a",
+    "revision": "2e7aaeb6c1788c0643d6fd60c2d34e10",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "cb16adea54db70287667",
+    "revision": "b58f95a6f47086d457ba",
     "url": "/static/css/main.3f6522bc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.20931791.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb16adea54db70287667",
-    "url": "/static/js/main.a1970539.chunk.js"
+    "revision": "b58f95a6f47086d457ba",
+    "url": "/static/js/main.31ef14e9.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Appreciations_Atmecs_Kudos.ec4ed188.jpg"
   },
   {
-    "revision": "ea37c50a76437310d8a234c580ec0801",
-    "url": "/static/media/Appreciations_NewsLetter.ea37c50a.jpg"
+    "revision": "b448e96276ad714618e02e2695cf646c",
+    "url": "/static/media/Appreciations_NewsLetter.b448e962.jpg"
   },
   {
     "revision": "a919730e0b4ee1ff2af8c75e2f3139be",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6594b16f07c7c7491fe1336a1034c9dd",
     "url": "/static/media/ETH-512.6594b16f.png"
-  },
-  {
-    "revision": "f546505b1f2cfe7f5de56588ffc07342",
-    "url": "/static/media/EmployeOfTheMonthNomination.f546505b.png"
   },
   {
     "revision": "c02b7da93fea7f472b89583e23f12759",

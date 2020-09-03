@@ -1,28 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.3f6522bc.chunk.css",
-    "main.js": "/static/js/main.a1970539.chunk.js",
-    "main.js.map": "/static/js/main.a1970539.chunk.js.map",
+    "main.js": "/static/js/main.31ef14e9.chunk.js",
+    "main.js.map": "/static/js/main.31ef14e9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
     "static/js/2.20931791.chunk.js": "/static/js/2.20931791.chunk.js",
     "static/js/2.20931791.chunk.js.map": "/static/js/2.20931791.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ea082240bd5143c28d0fa7f985a68e34.js": "/precache-manifest.ea082240bd5143c28d0fa7f985a68e34.js",
+    "precache-manifest.843a47868c1201afcb02d255c6cf32c0.js": "/precache-manifest.843a47868c1201afcb02d255c6cf32c0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.3f6522bc.chunk.css.map": "/static/css/main.3f6522bc.chunk.css.map",
     "static/js/2.20931791.chunk.js.LICENSE.txt": "/static/js/2.20931791.chunk.js.LICENSE.txt",
     "static/media/Appreciations_Atmecs_Kudos.jpg": "/static/media/Appreciations_Atmecs_Kudos.ec4ed188.jpg",
-    "static/media/Appreciations_NewsLetter.jpg": "/static/media/Appreciations_NewsLetter.ea37c50a.jpg",
+    "static/media/Appreciations_NewsLetter.jpg": "/static/media/Appreciations_NewsLetter.b448e962.jpg",
     "static/media/Azure.png": "/static/media/Azure.a919730e.png",
     "static/media/BGPicture_filter.png": "/static/media/BGPicture_filter.8f3f2453.png",
     "static/media/CSS3.png": "/static/media/CSS3.1651ac0d.png",
     "static/media/CSharp.svg": "/static/media/CSharp.afa245f5.svg",
     "static/media/Docker.svg": "/static/media/Docker.7f8d28b0.svg",
     "static/media/ETH-512.png": "/static/media/ETH-512.6594b16f.png",
-    "static/media/EmployeOfTheMonthNomination.png": "/static/media/EmployeOfTheMonthNomination.f546505b.png",
     "static/media/Git.svg": "/static/media/Git.c02b7da9.svg",
     "static/media/Linux.svg": "/static/media/Linux.2bf747f0.svg",
     "static/media/Postgresql.svg": "/static/media/Postgresql.1e83f710.svg",
@@ -41,6 +40,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.20931791.chunk.js",
     "static/css/main.3f6522bc.chunk.css",
-    "static/js/main.a1970539.chunk.js"
+    "static/js/main.31ef14e9.chunk.js"
   ]
 }
