@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cef9311a2e5dd61ba8fc7f5410c59e21",
+    "revision": "4debe085e54f4f1e4bd609c7e39b09d2",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "182313e684bb9ed4dc3a",
+    "revision": "65ae0368da5bf0198f41",
     "url": "/static/css/main.3f6522bc.chunk.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.20931791.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "182313e684bb9ed4dc3a",
-    "url": "/static/js/main.197fa7b3.chunk.js"
+    "revision": "65ae0368da5bf0198f41",
+    "url": "/static/js/main.c8917ef3.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
     "url": "/static/js/runtime-main.19ccc7f6.js"
   },
   {
-    "revision": "ec4ed188cbd2024488a4e86d25464137",
-    "url": "/static/media/Appreciations_Atmecs_Kudos.ec4ed188.jpg"
+    "revision": "1f9112e3d9fcf57636790e78caaf4209",
+    "url": "/static/media/Appreciations_Atmecs_Kudos.1f9112e3.jpg"
   },
   {
-    "revision": "b448e96276ad714618e02e2695cf646c",
-    "url": "/static/media/Appreciations_NewsLetter.b448e962.jpg"
+    "revision": "1716e5dab346b522b6ef66f3fcad8f21",
+    "url": "/static/media/Appreciations_NewsLetter.1716e5da.jpg"
   },
   {
     "revision": "a919730e0b4ee1ff2af8c75e2f3139be",
